@@ -14,11 +14,6 @@ text-decoration: none;
 margin-top: 10px;
 list-style: none;
 }
-.choice h2 {
-position: absolute;
-font-family: 'Raleway', sans-serif;
-color: gray;
-}
 .row {
 padding-top: 10%;
 padding-bottom: 30px;

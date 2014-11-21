@@ -2,7 +2,8 @@ a:active {
 background-color: #101118;
 }
 a:hover {
-background-color: gray;
+background-color: none;
+font-weight: bold;
 }
 .nav {
 font-family: 'Cabin', sans-serif;
