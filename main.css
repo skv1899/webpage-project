@@ -1,27 +1,18 @@
 .nav {
-font-family: 'Raleway', sans-serif;
-margin-top: 10px;
+font-family: 'Cabin', sans-serif;
 font-size: 14px;
-color: white;
+color: #B9B79C;
+background-color: #101118;
 }
 .nav a {
-color: white;
+color: #B9B79C;
 }
 .nav a:hover {
 text-decoration: none;
 }
 .container ul {
+margin-top: 10px;
 list-style: none;
-}
-.jumbotron {
-background-image:url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Oregon-1-18.jpg');
-height: 600px;
-font-family: 'Raleway', sans-serif;
-color: white;
-}
-.jumbotron .container {
-position: relative;
-top: 100px;
 }
 .choice h2 {
 position: absolute;
@@ -29,25 +20,54 @@ font-family: 'Raleway', sans-serif;
 color: gray;
 }
 .row {
-padding-top: 30px;
+padding-top: 10%;
 padding-bottom: 30px;
 }
 #image-real {
+position: relative;
 width: 100%;
 height: 300px;
+z-index: 1;
 }
 
 #image-virtual {
+position: relative;
 width: 100%;
 height: 300px;
+z-index: 1;
 }
-
+img:hover {
+opacity: 0;
+}
 body {
-background-color: gainsboro;
+background-color: #101118;
+
+background-size: 100%;
+}
+a.thumbnail:active {
+background-color: #101118;
+}
+a.thumbnail:hover {
+background-color: #101118;
+background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Starry-night-GenevaReal.jpg');
+background-size: 100%;
+position: relative;
+z-index: 2;
+}
+a.thumbnaila:active {
+background-color: #101118;
+}
+a.thumbnaila:hover {
+background-color: #101118;
+background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Starry-night-GenevaVirtual.jpg');
+background-size: 100%;
+position: relative;
+z-index: 2;
 }
 a:active {
-background-color: gray;
+background-color: #101118;
 }
 a:hover {
 background-color: gray;
 }
+

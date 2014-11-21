@@ -1,0 +1,29 @@
+a:active {
+background-color: #101118;
+}
+a:hover {
+background-color: gray;
+}
+.nav {
+font-family: 'Cabin', sans-serif;
+font-size: 14px;
+color: #B9B79C;
+background-color: #101118;
+}
+.nav a {
+padding: 14px 10px;
+color: #B9B79C;
+}
+.nav a:hover {
+text-decoration: none;
+}
+.nav li {
+display: inline;
+}
+.container ul {
+list-style: none;
+}
+body {
+background-color: #101118;
+background-size: 100%;
+}

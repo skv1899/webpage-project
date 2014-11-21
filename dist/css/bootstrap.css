@@ -936,6 +936,8 @@ img {
 }
 .img-responsive,
 .thumbnail > img,
+.thumbnaila > img,
+.thumbnaila a >img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -4670,17 +4672,43 @@ a.badge:focus {
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
 }
+.thumbnaila {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
 .thumbnail > img,
+.thumbnaila > img,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
 }
+.thumbnaila a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
 a.thumbnail:hover,
+a.thumbnaila:hover,
 a.thumbnail:focus,
+a.thumbnaila:focus,
 a.thumbnail.active {
   border-color: #337ab7;
 }
+a.thumbnaila.active {
+  border-color: #337ab7;
+}
 .thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+.thumbnaila .caption {
   padding: 9px;
   color: #333;
 }
