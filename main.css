@@ -1,0 +1,53 @@
+.nav {
+font-family: 'Raleway', sans-serif;
+margin-top: 10px;
+font-size: 14px;
+color: white;
+}
+.nav a {
+color: white;
+}
+.nav a:hover {
+text-decoration: none;
+}
+.container ul {
+list-style: none;
+}
+.jumbotron {
+background-image:url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Oregon-1-18.jpg');
+height: 600px;
+font-family: 'Raleway', sans-serif;
+color: white;
+}
+.jumbotron .container {
+position: relative;
+top: 100px;
+}
+.choice h2 {
+position: absolute;
+font-family: 'Raleway', sans-serif;
+color: gray;
+}
+.row {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#image-real {
+width: 100%;
+height: 300px;
+}
+
+#image-virtual {
+width: 100%;
+height: 300px;
+}
+
+body {
+background-color: gainsboro;
+}
+a:active {
+background-color: gray;
+}
+a:hover {
+background-color: gray;
+}
