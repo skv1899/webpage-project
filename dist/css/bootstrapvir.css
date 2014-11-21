@@ -937,9 +937,7 @@ img {
 .img-responsive,
 .thumbnail > img,
 .thumbnaila > img,
-.thumbnailb > img,
 .thumbnaila a >img,
-.thumbnailb a >img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -4686,21 +4684,8 @@ a.badge:focus {
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
 }
-.thumbnailb {
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #E1E1D5;
-  border: 0px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
-}
 .thumbnail > img,
 .thumbnaila > img,
-.thumbnailb > img,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
@@ -4709,23 +4694,14 @@ a.badge:focus {
   margin-right: auto;
   margin-left: auto;
 }
-.thumbnailb a > img {
-  margin-right: auto;
-  margin-left: auto;
-}
 a.thumbnail:hover,
 a.thumbnaila:hover,
-a.thumbnailb:hover,
 a.thumbnail:focus,
 a.thumbnaila:focus,
-a.thumbnailb:focus,
 a.thumbnail.active {
   border-color: #337ab7;
 }
 a.thumbnaila.active {
-  border-color: #337ab7;
-}
-a.thumbnailb.active {
   border-color: #337ab7;
 }
 .thumbnail .caption {
@@ -4733,10 +4709,6 @@ a.thumbnailb.active {
   color: #333;
 }
 .thumbnaila .caption {
-  padding: 9px;
-  color: #333;
-}
-.thumbnailb .caption {
   padding: 9px;
   color: #333;
 }

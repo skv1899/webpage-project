@@ -28,3 +28,65 @@ body {
 background-color: #101118;
 background-size: 100%;
 }
+a.thumbnail:active {
+background-color: #101118;
+}
+a.thumbnail:hover {
+background-color: #101118;
+background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Animal_Crossing_Logo.jpg');
+background-size: 100%;
+position: relative;
+z-index: 2;
+}
+a.thumbnaila:active {
+background-color: #101118;
+}
+a.thumbnaila:hover {
+background-color: #101118;
+background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/disney-magical-world.jpg');
+background-size: 100%;
+position: relative;
+z-index: 2;
+}
+a.thumbnailb:active {
+background-color: #101118;
+}
+a.thumbnailb:hover {
+background-color: #101118;
+background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Tomodachi_Life.jpg');
+background-size: 100%;
+position: relative;
+z-index: 2;
+}
+a:active {
+background-color: #101118;
+}
+a:hover {
+background-color: gray;
+}
+#image-animal {
+position: relative;
+width: 100%;
+height: 300px;
+z-index: 1;
+}
+
+#image-disney {
+position: relative;
+width: 100%;
+height: 300px;
+z-index: 1;
+}
+#image-tomo {
+position: relative;
+width: 100%;
+height: 300px;
+z-index: 1;
+}
+.row {
+padding-top: 10%;
+padding-bottom: 30px;
+}
+img:hover {
+opacity: 0;
+}
