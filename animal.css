@@ -6,10 +6,14 @@ background-color: none;
 font-weight: bold;
 }
 .nav {
+position: fixed;
 font-family: 'Cabin', sans-serif;
 font-size: 14px;
 color: #B9B79C;
 background-color: #101118;
+z-index: 100;
+width: 100%;
+float: left;
 }
 .nav a {
 padding: 14px 10px;
@@ -44,6 +48,12 @@ background-color: #101118;
 position: relative;
 width: 100%;
 height: 300px;
+z-index: 1;
+}
+.image-tomo {
+position: relative;
+width: 100%
+height: 50%;
 z-index: 1;
 }
 .row {
