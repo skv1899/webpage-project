@@ -44,7 +44,7 @@ background-color: #101118;
 }
 a.thumbnail:hover {
 background-color: #101118;
-background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Starry-night-GenevaReal.jpg');
+background-image: url('images/Starry-night-GenevaReal.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
@@ -55,7 +55,7 @@ background-color: #101118;
 }
 a.thumbnaila:hover {
 background-color: #101118;
-background-image: url('file:///C:/Users/Addama/Documents/GitHub/webpage-project/images/Starry-night-GenevaVirtual.jpg');
+background-image: url('images/Starry-night-GenevaVirtual.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
